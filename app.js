@@ -15,6 +15,10 @@ function clearInput(){
     display.value = 0;
 }
 
+function test() {
+    console.log("test")
+}
+
 
 
 
