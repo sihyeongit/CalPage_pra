@@ -1,0 +1,51 @@
+body{
+    background-color: cadetblue;
+}
+input{
+    width: 392px;
+    background-color: rgb(92, 136, 218);
+}
+section{
+    width: 400px;
+    display: block;
+    margin: auto;
+    background-color: antiquewhite;
+}
+#screen{
+    min-height: 100px;
+    height: 400px;
+    background-color: cadetblue;
+}
+
+#pad{
+    height: 400px;
+    background-color: rgb(40, 43, 43);
+    
+}
+#pad>div{
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 100px;
+    height: 70px;
+    margin: 0 4px 0 4px;
+    font-size: 30px;
+    background-color: orange;
+    color: aliceblue;
+}
+
+#screen div{
+    width: 100%;
+    height: 200px;
+    padding-top: 130px;
+
+}
+#screen button{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    
+}

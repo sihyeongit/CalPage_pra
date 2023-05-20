@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>계산기</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <section>
+        <div id="screen">
+            <div><input type="text" id="inputvalue" style="font-size: 56px; float: right;"></div>
+            <button id="last" onclick="finish()">=</button>
+        </div>
+        <div id="pad">
+            <div id="pad1">
+                <button id="num7" onclick="output(7)">7</button>
+                <button id="num8" onclick="output(8)">8</button>
+                <button id="num9" onclick="output(9)">9</button>
+                <button id="num%" onclick="output('/')">%</button>
+            </div>
+            <div id="pad2">
+                <button id="num4" onclick="output(4)">4</button>
+                <button id="num5" onclick="output(5)">5</button>
+                <button id="num6" onclick="output(6)">6</button>
+                <button id="num-" onclick="output('-')">-</button>
+            </div>
+            <div id="pad3">
+                <button id="num1" onclick="output(1)">1</button>
+                <button id="num2" onclick="output(2)">2</button>
+                <button id="num3" onclick="output(3)">3</button>
+                <button id="num+" onclick="output('+')">+</button>
+            </div>
+            <div id="pad4">
+                <button id="num." onclick="output('.')">.</button>
+                <button id="num0" onclick="output(0)">0</button>
+                <button id="numdel" onclick="clearInput()">C</button>
+                <button id="num*" onclick="output('*')">X</button>
+            </div>
+        </div>
+    </section>
+    
+    <script src="app.js"></script>
+</body>
+</html>
